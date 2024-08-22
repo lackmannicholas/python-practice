@@ -10,14 +10,9 @@ class Vehicle:
         self.vehicle_number = Vehicle.vehicle_count
         pass
 
-    def get_vehicle_count(self):
+    @staticmethod
+    def get_vehicle_count():
         return Vehicle.vehicle_count
 
-car = Vehicle(body_type="four door sedan", make="fiat")
-truck = Vehicle(body_type="truck", make="ford")
-
-print(car.vehicle_body)
-print(car.vehicle_number)
-print(truck.vehicle_body)
-print(truck.vehicle_number)
-print(Vehicle.get_vehicle_count())
+class Truck(Vehicle):
+    pass
