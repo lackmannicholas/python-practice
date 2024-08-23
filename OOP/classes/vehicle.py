@@ -13,6 +13,10 @@ class Vehicle:
     @staticmethod
     def get_vehicle_count():
         return Vehicle.vehicle_count
+    
+    def drive(self):
+        print("Vehicle driving...")
 
 class Truck(Vehicle):
-    pass
+    def drive(self):
+        print("Truck driving...")

@@ -8,3 +8,6 @@ print(car.vehicle_number)
 print(truck.vehicle_body)
 print(truck.vehicle_number)
 print(Vehicle.get_vehicle_count())
+
+for v in [car, truck]:
+    v.drive()
