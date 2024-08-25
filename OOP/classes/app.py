@@ -1,4 +1,5 @@
 from vehicle import Vehicle, Truck
+from animals import Monkey, Bird
 
 car = Vehicle(body_type="four door sedan", make="fiat")
 truck = Truck(body_type="truck", make="ford")
@@ -11,3 +12,12 @@ print(Vehicle.get_vehicle_count())
 
 for v in [car, truck]:
     v.drive()
+
+monkey = Monkey("Jojo")
+monkey.eat()
+monkey.climb()
+
+bird = Bird("Jerry")
+bird.eat()
+bird.fly()
+bird.sleep()

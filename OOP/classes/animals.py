@@ -29,11 +29,3 @@ class Bird(Animal):
         print(f"{self.animal_name} is flying")
 
 
-monkey = Monkey("Jojo")
-monkey.eat()
-monkey.climb()
-
-bird = Bird("Jerry")
-bird.eat()
-bird.fly()
-bird.sleep()
