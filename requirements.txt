@@ -1,0 +1,7 @@
+flask
+fpdf
+pandas
+tabula
+pdfminer
+fitz
+pytest
