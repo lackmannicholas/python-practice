@@ -5,3 +5,4 @@ tabula
 pdfminer
 fitz
 pytest
+pylint

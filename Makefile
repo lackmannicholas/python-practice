@@ -6,7 +6,6 @@ test:
 	python -m pytest
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py\
-		 hugging-face/zero_shot_classification.py hugging-face/hf_whisper.py
+	pylint
 
 refactor: format lint
