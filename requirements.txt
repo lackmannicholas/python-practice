@@ -6,3 +6,4 @@ pdfminer
 fitz
 pytest
 pylint
+matplotlib
