@@ -7,3 +7,4 @@ fitz
 pytest
 pylint
 matplotlib
+numpy

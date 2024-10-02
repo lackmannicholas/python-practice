@@ -9,7 +9,6 @@ df.head()
 
 df['rating'] = df['rating'].apply(lambda x: int(x))
 
-# df.plot()
-
+# plot rating by variety
 df.plot.scatter(x="rating", y="variety", alpha=0.5)
 plt.show()
